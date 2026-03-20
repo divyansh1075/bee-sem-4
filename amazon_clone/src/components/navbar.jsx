@@ -13,6 +13,10 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const menuRef = useRef(null);
 
+
+
+    
+
     useEffect(() => {
         const handleClickOutside = (e) => {
             if (menuRef.current && !menuRef.current.contains(e.target)) {
